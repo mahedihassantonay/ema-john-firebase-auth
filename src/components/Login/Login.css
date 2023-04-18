@@ -1,0 +1,42 @@
+.form-container{
+    width: 500px;
+    height: 600px;
+    border: 1px solid gray ;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding-left: 40px;
+}
+
+.form-title{
+    text-align: center;
+}
+
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 415px;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.btn-submit{
+    width: 430px;
+    height: 55px;
+   font-weight: 700 ; 
+   background: rgba(255, 153, 0, 0.3);
+   border: none;
+   
+}
+
+.btn-submit:hover{
+    background: rgba(255, 153, 0, 0.6);
+}
